@@ -45,6 +45,10 @@ This repository serves as a playground and knowledge base for exploring various 
 
 ### 6. Advanced Econometric & Statistical Models
 - **Bass Diffusion Models**: Mathematical models for predicting product adoption curves, market penetration timing, and innovation diffusion
+  - Classical Bass model with parameter estimation and forecasting
+  - Norton-Bass model for multi-generational product diffusion
+  - Network effects modeling with social influence and centrality measures
+  - Technology substitution and competitive dynamics analysis
 - **Customer Lifetime Value (CLV) Models**: 
   - Buy-Till-You-Die (BTYD) models (BG/NBD, Pareto/NBD)
   - Probabilistic CLV modeling
@@ -72,7 +76,7 @@ MarketingAI/
 ├── content-generation/          # AI content creation tools and examples
 ├── customer-analytics/          # Data analysis and insights
 │   ├── clv-models/             # Customer Lifetime Value models
-│   ├── bass-diffusion/         # Bass diffusion models for product adoption
+│   ├── bass-diffusion/         # Bass diffusion models with network effects
 │   ├── time-series/            # Time series forecasting models
 │   ├── price-elasticity/       # Price elasticity and demand models
 │   └── media-mix-models/       # MMM and attribution modeling
@@ -117,6 +121,7 @@ MarketingAI/
 - **Statsmodels**: Statistical modeling and econometrics
 - **Scikit-learn**: Machine learning for predictive analytics
 - **SciPy**: Statistical functions and optimization
+- **NetworkX**: Social network analysis and graph theory
 - **R**: Statistical computing (rstan, bayesm, BTYD packages)
 
 ### Bayesian Media Mix Modeling
