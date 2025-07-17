@@ -11,12 +11,12 @@ statsmodels>=0.13.0
 # Time Series Forecasting
 prophet>=1.1.0
 
-# Deep Learning (optional)
-tensorflow>=2.8.0
+# Deep Learning (optional - install separately if needed)
+# tensorflow>=2.8.0
 
-# Bayesian Modeling (optional)
-pymc>=5.0.0
-arviz>=0.12.0
+# Bayesian Modeling (optional - install separately if needed)
+# pymc>=5.0.0
+# arviz>=0.12.0
 
 # Customer Lifetime Value
 lifetimes>=0.11.0

@@ -1,0 +1,25 @@
+# Optional Dependencies for Advanced Features
+# Install these separately based on your Python version and needs
+
+# Deep Learning for Time Series (LSTM models)
+# For Python 3.8-3.11: tensorflow>=2.8.0,<2.16.0
+# For Python 3.12+: tensorflow>=2.16.0
+# Alternative: tensorflow-cpu (CPU-only version)
+
+# Bayesian Modeling for Media Mix Models
+# pymc>=5.0.0
+# arviz>=0.12.0
+# xarray>=2023.1.0
+
+# Alternative lightweight Bayesian libraries
+# emcee>=3.1.0        # MCMC sampling
+# corner>=2.2.0       # Posterior visualization
+
+# GPU acceleration (if available)
+# tensorflow-gpu
+# cupy              # GPU arrays for scipy/numpy acceleration
+
+# Installation commands:
+# pip install tensorflow>=2.8.0  # or appropriate version for your Python
+# pip install pymc>=5.0.0 arviz>=0.12.0  # for Bayesian MMM
+# pip install emcee corner  # lightweight Bayesian alternative 
